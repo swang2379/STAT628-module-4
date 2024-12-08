@@ -13,9 +13,12 @@ This repository contains data, code, and documentation for recreating Group 13's
 
 ### Code Directory Contents:
 - get_data.R: fetch podcast data from Spotify API. Note that your own API client id, secret, and redirect uri are needed in the script.
+- data_process.Rmd: do data cleaning for the Description column(get rid of the website link and punctuations, make letters to lower case.);build our metrics.
 
 ### Data Directory Contents: 
 - all_episodes.csv: contain 7 categories of podcast's episodes.
+- clean version.csv: add the Description_clean column
+- data use in app.rds: add the metric scores to the data
 
 ### App Directory Contents:
 - shiny.R: runs the Shiny app UI and server
