@@ -46,7 +46,7 @@ server <- function(input, output) {
       geom_point(
         data = selected_data,
         aes(x = Special_Score, y = normalized_score),
-        color = "red",
+        color = "black",
         size = 5,
         shape = 8  # 星形或其他图标
       )
